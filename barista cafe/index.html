@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barista Cafe</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- navbar section  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary z-3  position-fixed  rounded-4 px-4 py-3 bg-opacity-50"
+    data-bs-theme="dark">
+    <div class="container-fluid">
+      <img class="nav-logo " src="./imgs/coffee-beans.png" alt="">
+      <a class="navbar-brand  fs-2 px-2 fw-bolder" href="#">Barista</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-capitalize" href="./index.html#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="./index.html#menu">Our Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="./index.html#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="./index.html#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-capitalize mx-2 btn btn-outline-info rounded-pill px-5 py-3" href="#">Reservation </a>
+          </li>
+
+        </ul>
+        <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slider section  -->
+  <section class="slider-section position-relative min-vh-100 w-100">
+    <div class="main-slider w-100  position-absolute  start-0 ">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade vh-100" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item vh-100 overflow-hidden active">
+            <img src="./imgs/happy-loving-couple-bakers-drinking-coffee-looking-notebook.jpg"
+              class="d-block w-100 min-vh-100" alt="...">
+          </div>
+          <div class="carousel-item vh-100 overflow-hidden">
+            <img src="./imgs/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg"
+              class="d-block w-100 min-vh-100" alt="...">
+          </div>
+          <div class="carousel-item vh-100 overflow-hidden">
+            <img
+              src="./imgs/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg"
+              class="d-block w-100 min-vh-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="slider-data text-center   position-absolute mt-5 top-50 start-50 translate-middle z-3">
+      <div class="slider-data2 text-white position-relative">
+        <p>welcome to Barista.co</p>
+        <h1 class="display-1 fw-bolder">Cafe Klang</h1>
+        <h3 class="fs-4 lead ">your favourite coffee daily lives.</h3>
+        <a class="btn m-2 btn-outline-light border-0 rounded-pill" href="#">Our Story</a>
+        <a class="btn btn-danger rounded-pill " href="#">Check Menu</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- about section -->
+
+  <section class="about-section py-5" style="background-color: #513a21;" id="about">
+    <div class="container h-100">
+      <div class="row align-items-center">
+
+        <!-- الفيديو -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="position-relative rounded overflow-hidden">
+            <video autoplay muted loop playsinline class="about-video rounded-4">
+              <source src="./imgs/videos/pexels-mike-jones-9046237.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="overlay-gradient p-4 position-absolute bottom-0 rounded-4">
+              <p class="text-white fw-bold mb-0">We Started Since 2009.<br>Best Cafe in Klang.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- النص -->
+        <div class="col-lg-6 text-white">
+          <p class="fst-italic mb-1">Barista.co</p>
+          <h2 class="fw-bold">Cafe KL</h2>
+          <p>
+            The café had been in the town for as long as anyone <br> could remember, and it had become a beloved <br>
+            institution among the locals.
+          </p>
+          <p>
+            The café was run by a friendly and hospitable couple, Mr. <br> and Mrs. Johnson. Barista Cafe is free
+            Bootstrap 5 HTML <br>layout provided by <a href="#" class="text-warning text-decoration-none">Tooplate</a>.
+          </p>
+          <button class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold">Meet Baristas</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards section  -->
+
+  <section class="cards-section">
+    <div class="cards-title d-flex text-white flex-column align-items-center justify-content-end mb-4">
+      <p>Creative Baristas</p>
+      <h2 class="display-4 fw-bolder">Meet People</h2>
+    </div>
+
+    <div class="cards row mx-5 p-4 g-4">
+      <!-- Card 1 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card position-relative h-100">
+          <img src="./imgs/team/portrait-elegant-old-man-wearing-suit.jpg" class="card-img" alt="Steve">
+          <div class="card-body z-3 text-white position-absolute bottom-0 start-0 d-flex align-items-center flex-wrap">
+            <h3 class="card-title mb-2 fw-bolder">Steve</h3>
+            <p class="badge ms-2 mb-2"><em>Boss</em></p>
+            <p class="card-text fs-6">Your favourite coffee daily consectetur.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card position-relative h-100">
+          <img src="./imgs/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg"
+            class="card-img-top" alt="Sandra">
+          <div class="card-body z-3 text-white position-absolute bottom-0 start-0 d-flex align-items-center flex-wrap">
+            <h3 class="card-title mb-2 fw-bolder">Sandra</h3>
+            <p class="badge ms-2 mb-2"><em>Manager</em></p>
+            <p class="card-text fs-6">Your favourite coffee daily lives tempor.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card position-relative h-100">
+          <img src="./imgs/team/small-business-owner-drinking-coffee.jpg" class="card-img-top" alt="Jackson">
+          <div class="card-body z-3 text-white position-absolute bottom-0 start-0 d-flex align-items-center flex-wrap">
+            <h3 class="card-title mb-2 fw-bolder">Jackson</h3>
+            <p class="badge ms-2 mb-2"><em>Senior</em></p>
+            <p class="card-text fs-6">Your favourite coffee daily lives.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card position-relative h-100">
+          <img src="./imgs/team/smiley-business-woman-working-cashier.jpg" class="card-img-top" alt="Michelle">
+          <div class="card-body z-3 text-white position-absolute bottom-0 start-0 d-flex align-items-center flex-wrap">
+            <h3 class="card-title mb-2 fw-bolder">Michelle</h3>
+            <p class="badge ms-2 mb-2"><em>Barista</em></p>
+            <p class="card-text fs-6">Your favourite coffee daily lives.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- menu -->
+
+  <!-- <div>
+            <div><img src="./imgs/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg" alt=""
+            class="menu-img d-block w-100 min-vh-100  ">
+        </div> -->
+
+
+
+  <!-- Reviews Section -->
+  <section class="menu-section py-5" id="menu">
+
+    <div class="container-fluid">
+      <div class="row g-4">
+        <!-- Left Column -->
+        <div class="col-12 col-md-6 ">
+          <div class="menu-body h-100">
+            <p class="menu-text  small mb-0 ms-3 ">Delicious Menu</p>
+            <h3 class="menu-title fw-bold mb-4">Breakfast</h3>
+
+            <!-- Item 1 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <h4 class="fw-bold">Pancakes</h4>
+              </div>
+              <p class="color fw-bold mt-3 mb-0">$12.50</p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1 ">Fresh brewed coffee and steamed milk</p>
+                <h4 class="fw-bold">Toasted Waffle</h4>
+              </div>
+              <div class="d-flex align-items-center gap-2 mt-3">
+                <p class="old mb-0">$16.50</p>
+                <p class="color fw-bold mb-0">$12.00</p>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1">Brewed coffee and steamed milk</p>
+                <h5 class="fw-bolder me-4 mb-2">
+                  Fried Chips
+                  <span class="badge ms-2"><em>Recommend</em></span>
+                </h5>
+              </div>
+              <p class="color fw-bold mb-0 mt-3">$15.00</p>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-0 me-5">Rich Milk and Foam</p>
+                <h4 class="fw-bold">Pancakes</h4>
+              </div>
+              <p class="color fw-bold mb-0 mt-3">$12.50</p>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1  ">Fresh brewed coffee and steamed milk</p>
+                <h4 class="fw-bold">Banana Cakes</h4>
+              </div>
+              <p class="color fw-bold mb-0 mt-3">$18.00</p>
+            </div>
+
+            <div class=" d-flex">
+              <div>
+                <p class="gray mb-1 ms-0">Fresh brewed coffee and steamed milk</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-12 col-md-6 ">
+          <div class="menu-body h-100">
+            <p class="menu-text small mb-0 ms-3">Favourite Menu</p>
+            <h3 class="menu-title fw-bold mb-4">Coffee</h3>
+
+            <!-- Item 1 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <h4 class="fw-bold">Latte</h4>
+              </div>
+              <div class="d-flex gap-2">
+                <p class="old mb-0 mt-3">$12.50</p>
+                <p class="color fw-bold mt-3 mb-0">$7.50</p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1">Fresh brewed coffee and steamed milk</p>
+                <h5 class="fw-bolder me-5 mb-0">
+                  White Coffee
+                  <span class="badge ms-2"><em>Recommend</em></span>
+                </h5>
+              </div>
+              <p class="color fw-bold mt-3 mb-0">$5.90</p>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1 me-4">Brewed coffee and steamed milk</p>
+                <h4 class="fw-bold">Chocolate Milk</h4>
+              </div>
+              <p class="color fw-bold mb-0 mt-3">$5.50</p>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1 me-5">Rich Milk and Foam</p>
+                <h4 class="fw-bold">Greentea</h4>
+              </div>
+              <p class="color fw-bold mb-0 mt-3">$7.50</p>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="menu-items d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1">Fresh brewed coffee and steamed milk</p>
+                <h4 class="fw-bold">Dark Chocolate</h4>
+              </div>
+              <p class="color fw-bold mb-0 mt-3">$7.25</p>
+            </div>
+
+            <div class=" d-flex justify-content-between align-items-center mb-4">
+              <div>
+                <p class="gray mb-1 ms-0">Fresh brewed coffee and steamed milk</p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section  w-100 px-0" id="reviews">
+    <div class="container-fluid  w-100 position-relative">
+      <div class="reviews-title d-flex h-25 text-white flex-column align-items-center justify-content-end mb-5">
+        <p>Reviews by Customers</p>
+        <h2 class="fw-bolder">Testimonials</h2>
+      </div>
+
+      <div class="timeline-line"></div>
+
+      <div class="timeline-dot" style="top: 150px;"></div>
+      <div class="timeline-dot" style="top: 470px;"></div>
+      <div class="timeline-dot" style="top: 790px;"></div>
+
+      <div class="container position-relative">
+        <!-- Card 1 (left) -->
+        <div class="row mb-5">
+          <div class="col-6 d-flex justify-content-end">
+            <div class="testimonial-card left shadow">
+              <div class="top-section position-relative">
+                <div class="profile position-absolute d-flex align-items-center">
+                  <img src="./imgs/reviews/young-woman-with-round-glasses-yellow-sweater.jpg" alt="Sandra">
+                  <div>
+                    <h5 class="mb-0 fw-bold">Sandra</h5>
+                    <small class="fst-italic small">Customers</small>
+                  </div>
+                </div>
+              </div>
+              <div class="content p-3">
+                <p class="fst-italic mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. </p>
+                <div class="rating d-flex align-items-center pt-2">
+                  <div>
+                    <span class="text-white fw-bold ms-1">4.5</span>
+                    <span class="text-white small fw-bold">Rating</span>
+                  </div>
+                  <div>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9734;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 (right) -->
+        <div class="row mb-5">
+          <div class="col-6"></div>
+          <div class="col-5 d-flex justify-content-start">
+            <div class="testimonial-card right shadow">
+              <div class="top-section position-relative">
+                <div class="profile position-absolute d-flex align-items-center">
+                  <img src="./imgs/reviews/senior-man-white-sweater-eyeglasses.jpg" alt="Sandra">
+                  <div>
+                    <h5 class="mb-0 fw-bold">Don</h5>
+                    <small class="fst-italic small">Customers</small>
+                  </div>
+                </div>
+              </div>
+              <div class="content p-3">
+                <p class="fst-italic mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. </p>
+                <div class="rating d-flex align-items-center pt-2">
+                  <div>
+                    <span class="text-white fw-bold ms-1">4.5</span>
+                    <span class="text-white small fw-bold">Rating</span>
+                  </div>
+                  <div>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9734;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 (left) -->
+        <div class="row mb-5">
+          <div class="col-6 d-flex justify-content-end">
+            <div class="testimonial-card left shadow">
+              <div class="top-section position-relative">
+                <div class="profile position-absolute d-flex align-items-center">
+                  <img
+                    src="./imgs/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg"
+                    alt="Sandra">
+                  <div>
+                    <h5 class="mb-0 fw-bold">Olivia</h5>
+                    <small class="fst-italic small">Customers</small>
+                  </div>
+                </div>
+              </div>
+              <div class="content p-3">
+                <p class="fst-italic mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. </p>
+                <div class="rating d-flex align-items-center pt-2">
+                  <div>
+                    <span class="text-white fw-bold ms-1">4.5</span>
+                    <span class="text-white small fw-bold">Rating</span>
+                  </div>
+                  <div>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9733;</span>
+                    <span class="text-white">&#9734;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+
+  <section class="contact-section" id="contact">
+    <div class="overlay"></div>
+    <div class="container contact-container">
+      <div class="row align-items-center">
+
+        <!-- Contact Form -->
+        <div class="col-lg-6 mb-0">
+          <h5 class="text-white small fst-italic ">Say Hello</h5>
+          <h1 class="text-white fw-bolder mb-5">Contact</h1>
+          <form>
+            <div class="row mb-0">
+              <div class="col">
+                <label class="form-label">Name <span class="text-danger w-70"></span></label>
+                <input type="text" class="form-control" placeholder="Jackson">
+              </div>
+              <div class="col">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control text-white " placeholder="Jack@gmail.com">
+              </div>
+            </div>
+            <div class="col">
+              <label class="form-label">How can we help?</label>
+              <textarea class="form-control text-white h-50 w-100" rows="4" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom text-align-center">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Google Map -->
+        <div class="col-lg-6">
+          <iframe class="google-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5039.668141741662!2d72.81814769288509!3d19.043340656729775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c994f34a7355%3A0x2680d63a6f7e33c2!2sLover%20Point!5e1!3m2!1sen!2sth!4v1692722771770!5m2!1sen!2sth"
+            width="600" height="300" style="border:0;
+         border-radius :20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="py-5" style="background-color: #b26529; color: #fff;">
+    <div class="container ">
+      <div class="row">
+        <!-- Where to find us -->
+        <div class="col-md-4 mb-4">
+          <p class="word fst-italic">Where to find us?</p>
+          <p><i class="bi bi-geo-alt-fill"></i> <strong>Bandra West, Mumbai, Maharashtra 400050, India</strong></p>
+          <div class="links d-flex gap-4 fs-5 ms-5">
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-md-4 mb-4">
+          <p class=" word fst-italic">Contact</p>
+          <p class="word"><strong class="text-white ">Phone:</strong> (65) 305 2409 671</p>
+          <p class="word"><strong class="text-white ">Email:</strong> hello@barista.co</p>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="opening-hours ">
+          <p class=" word mb-4 fst-italic">Opening Hours.</p>
+
+          <div class="d-flex align-items-center mb-2">
+            <span>Monday – Friday</span>
+            <span class="line flex-grow-1 mx-2"></span>
+            <span class="fw-bold">9:00 – 18:00</span>
+          </div>
+
+          <div class="d-flex align-items-center mb-2">
+            <span>Saturday</span>
+            <span class="line flex-grow-1 mx-2"></span>
+            <span class="fw-bold">11:00 – 16:30</span>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <span>Sunday</span>
+            <span class="line flex-grow-1 mx-2"></span>
+            <span class="fw-bold">Closed</span>
+          </div>
+        </div>
+
+
+        <!-- Copyright -->
+        <div style="font-size: 1.1rem; color: rgba(255,255,255,0.7);">
+          Copyright © Barista Cafe 2048 - Design: <a href="#" class="text-warning text-decoration-none">Tooplate</a>.
+        </div>
+      </div>
+  </footer>
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
